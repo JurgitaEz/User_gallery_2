@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.fd-column {
+  flex-direction: column;
+}
+.j-center {
+  justify-content: center;
+}
+.al-center {
+  align-items: center;
+}
+body {
+  padding: 20px;
+}
+img {
+  width: 70px;
+  height: 70px;
+}
+.cell {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+.box {
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+}
+.box1 {
+  width: 300px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+.note{
+  height: 100px;
+  width: 150px;
+  border: 1px solid red;
+}
+button {
+  margin: 10px;
+}
+.spinCookie {
+  animation: spin infinite 2s linear;
+}
+@keyframes example {
+  to {transform: rotate(360deg)}
+}
+input {
+  margin: 20px;
+}
+.border {
+  border: 2px solid black;
+}
+.main {
+  width: 700px;
+}
+
+.options div {
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px
+}
+
+.options div:hover {
+  background-color: mediumseagreen;
+}
+
+.m-10 {
+  margin: 10px}
+
+.p-10{
+  padding: 10px;
+}
+.bar {
+  height: 500px;
+  width: 300px;
+  border: 2px solid black;
+}
+.conteiner {
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+}
+.textLink {
+  cursor: pointer;
+}
